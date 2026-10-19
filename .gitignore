@@ -1,0 +1,9 @@
+# Java compiled files
+*.class
+
+# Build output
+**/out/
+**/bin/
+
+# IDE-local files
+.idea/
