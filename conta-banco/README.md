@@ -1,18 +1,41 @@
-## Getting Started
+# Conta Bancária — Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Exercício introdutório da trilha Java Básico para praticar entrada de dados, variáveis, tipos primitivos, concatenação de texto e saída no terminal.
 
-## Folder Structure
+## Objetivo
 
-The workspace contains two folders by default, where:
+Solicitar informações básicas do titular e da conta e apresentar uma mensagem de confirmação com os dados informados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Pré-requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- JDK instalado
+- Terminal ou Visual Studio Code
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Verifique a instalação:
 
-## Dependency Management
+~~~bash
+java -version
+javac -version
+~~~
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Como compilar e executar
+
+A partir da pasta conta-banco, execute:
+
+~~~bash
+javac -d out src/ContaTerminal.java
+java -cp out ContaTerminal
+~~~
+
+O programa solicita os dados pelo terminal. Use valores fictícios ao testar e evite inserir ou compartilhar informações bancárias reais.
+
+## Conceitos praticados
+
+- Classe e método main
+- Variáveis e tipos de dados
+- Leitura de entrada pelo terminal
+- Formatação de uma mensagem de saída
+
+## Contexto
+
+Projeto educacional para praticar os fundamentos de Java; não é um sistema bancário real.
